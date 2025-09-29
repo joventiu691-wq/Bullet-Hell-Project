@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #1a1a2e; /* Dark background */
+    font-family: sans-serif;
+}
+
+#gameCanvas {
+    /* Basic border to clearly define the game area */
+    border: 2px solid #ffffff; 
+    background-color: #0f0f1a; /* Darker game background */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
